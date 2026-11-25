@@ -1,6 +1,6 @@
 import React from "react";
 import { ContactForm } from "@/components/ContactForm";
-import { Mail, Clock, ShieldCheck, PhoneCall, Calendar } from "lucide-react";
+import { Mail, Clock, ShieldCheck, PhoneCall, Calendar, MapPin } from "lucide-react";
 import Link from "next/link";
 
 export const metadata = {
@@ -42,13 +42,35 @@ export default function ContactPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-3.5 p-4 rounded-xl bg-surface-light border border-surface-border">
+                  <PhoneCall className="w-5 h-5 text-brand-blue shrink-0 mt-0.5" />
+                  <div>
+                    <h4 className="text-sm font-semibold text-slate-900">Phone</h4>
+                    <p className="text-xs text-slate-600 mt-0.5">Call us directly during business hours:</p>
+                    <a
+                      href="tel:+14056488273"
+                      className="text-xs font-semibold text-brand-cobalt hover:text-brand-hover mt-1 inline-block tabular-nums"
+                    >
+                      +1 (405) 648-8273
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3.5 p-4 rounded-xl bg-surface-light border border-surface-border">
+                  <MapPin className="w-5 h-5 text-brand-blue shrink-0 mt-0.5" />
+                  <div>
+                    <h4 className="text-sm font-semibold text-slate-900">Location</h4>
+                    <p className="text-xs text-slate-600 mt-0.5">United States</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3.5 p-4 rounded-xl bg-surface-light border border-surface-border">
                   <Mail className="w-5 h-5 text-brand-blue shrink-0 mt-0.5" />
                   <div>
-                    <h4 className="text-sm font-semibold text-navy-900">Direct Inquiries</h4>
-                    <p className="text-xs text-muted mt-0.5">For agency partnerships and technical questions:</p>
+                    <h4 className="text-sm font-semibold text-slate-900">Direct Inquiries</h4>
+                    <p className="text-xs text-slate-600 mt-0.5">For agency partnerships and technical questions:</p>
                     <a
                       href="mailto:inquiries@halvonex.com"
-                      className="text-xs font-semibold text-brand-blue hover:text-brand-hover mt-1 inline-block"
+                      className="text-xs font-semibold text-brand-cobalt hover:text-brand-hover mt-1 inline-block"
                     >
                       inquiries@halvonex.com
                     </a>

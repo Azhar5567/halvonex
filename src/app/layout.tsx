@@ -68,6 +68,7 @@ const jsonLd = {
   "@type": "ProfessionalService",
   name: "Halvonex",
   url: "https://halvonex.com",
+  telephone: "+14056488273",
   description:
     "AI automation agency that builds, deploys, and manages 24/7 AI receptionist, call answering, CRM integration, and appointment scheduling systems for HVAC companies in the United States.",
   areaServed: {

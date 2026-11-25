@@ -14,7 +14,21 @@ export function Footer() {
             <p className="text-sm text-slate-400 max-w-sm leading-relaxed">
               Halvonex builds, deploys, and manages AI receptionist and lead capture systems for HVAC companies across the United States.
             </p>
-            <p className="text-xs text-slate-400 pt-1">inquiries@halvonex.com</p>
+            <div className="text-xs text-slate-400 pt-1 space-y-1">
+              <p>Location: United States</p>
+              <p>
+                Phone:{" "}
+                <a href="tel:+14056488273" className="hover:text-white transition-colors tabular-nums">
+                  +1 (405) 648-8273
+                </a>
+              </p>
+              <p>
+                Email:{" "}
+                <a href="mailto:inquiries@halvonex.com" className="hover:text-white transition-colors">
+                  inquiries@halvonex.com
+                </a>
+              </p>
+            </div>
           </div>
 
           <div>
