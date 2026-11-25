@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { ChevronDown, HelpCircle } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 
 interface FAQItem {
   question: string;
@@ -37,7 +37,7 @@ const FAQS: FAQItem[] = [
   {
     question: "How long does implementation and setup take?",
     answer:
-      "Because we handle the technical build for you, typical onboarding takes between 5 to 10 business days. This includes discovery, custom prompt scripting, carrier forwarding configuration, CRM connection, and scenario testing.",
+      "Because we handle the technical build for you, typical onboarding takes between 5 to 10 business days depending on your existing phone system and workflow complexity.",
   },
   {
     question: "Who manages and maintains the system after launch?",
@@ -47,7 +47,7 @@ const FAQS: FAQItem[] = [
   {
     question: "How does pricing work for Halvonex services?",
     answer:
-      "Our services consist of an initial implementation and setup fee covering custom engineering, integration, and testing, followed by a managed monthly service plan covering continuous call capacity, telephony infrastructure, and ongoing technical maintenance. We provide a transparent scope during your free consultation.",
+      "Our services consist of an initial implementation and setup fee covering custom engineering, integration, and testing, followed by a managed monthly service plan covering continuous call capacity and ongoing maintenance. We provide a transparent scope during your free consultation.",
   },
 ];
 
@@ -59,45 +59,41 @@ export function FAQSection() {
   };
 
   return (
-    <section className="py-20 bg-surface-light border-y border-surface-border">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-left">
-        <div className="max-w-2xl mb-12 text-left">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-brand-light text-brand-blue mb-3">
-            <HelpCircle className="w-3.5 h-3.5" />
-            <span>Service & Implementation FAQ</span>
-          </div>
-          <h2 className="text-3xl font-bold text-navy-900 tracking-tight">
-            Frequently Asked Questions
+    <section className="py-20 bg-white border-b border-surface-border">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10">
+        <div className="lg:col-span-4 text-left">
+          <p className="font-mono text-xs uppercase tracking-wider text-slate-500 mb-2">
+            FAQ
+          </p>
+          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
+            Common questions.
           </h2>
-          <p className="text-muted mt-3 text-base">
-            Clear, honest answers about our managed AI automation services and partnership model.
+          <p className="text-sm text-slate-600 mt-3 leading-relaxed">
+            Clear answers about our managed AI automation services and implementation model.
           </p>
         </div>
 
-        <div className="space-y-3">
+        <div className="lg:col-span-8 divide-y divide-surface-border border-t border-b border-surface-border">
           {FAQS.map((faq, idx) => {
             const isOpen = openIndex === idx;
             return (
-              <div
-                key={faq.question}
-                className="bg-white rounded-xl border border-surface-border overflow-hidden transition-all duration-150"
-              >
+              <div key={faq.question} className="py-1">
                 <button
                   type="button"
                   onClick={() => toggle(idx)}
-                  className="w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-semibold text-navy-900 hover:text-brand-blue transition-colors focus:outline-none"
+                  className="w-full py-4 text-left flex items-center justify-between gap-4 font-medium text-slate-900 hover:text-brand-cobalt transition-colors"
                   aria-expanded={isOpen}
                 >
-                  <span className="text-base sm:text-lg">{faq.question}</span>
+                  <span className="text-sm sm:text-base">{faq.question}</span>
                   <ChevronDown
-                    className={`w-5 h-5 text-muted shrink-0 transition-transform duration-200 ${
-                      isOpen ? "transform rotate-180 text-brand-blue" : ""
+                    className={`w-4 h-4 text-slate-400 shrink-0 transition-transform duration-200 ${
+                      isOpen ? "rotate-180 text-brand-cobalt" : ""
                     }`}
                   />
                 </button>
 
                 {isOpen && (
-                  <div className="px-6 pb-6 pt-1 text-sm text-muted-dark leading-relaxed border-t border-surface-subtle">
+                  <div className="pb-5 text-sm text-slate-600 leading-relaxed max-w-2xl">
                     <p>{faq.answer}</p>
                   </div>
                 )}
