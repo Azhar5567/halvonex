@@ -1,7 +1,6 @@
 import React from "react";
 import { ContactForm } from "@/components/ContactForm";
-import { Mail, Clock, ShieldCheck, PhoneCall, Calendar, MapPin } from "lucide-react";
-import Link from "next/link";
+import { Mail, PhoneCall, MapPin } from "lucide-react";
 
 export const metadata = {
   title: "Contact Us | Halvonex AI Automation Agency",
@@ -76,26 +75,6 @@ export default function ContactPage() {
                     </a>
                   </div>
                 </div>
-
-                <div className="flex items-start gap-3.5 p-4 rounded-xl bg-surface-light border border-surface-border">
-                  <Clock className="w-5 h-5 text-brand-blue shrink-0 mt-0.5" />
-                  <div>
-                    <h4 className="text-sm font-semibold text-navy-900">Business Hours</h4>
-                    <p className="text-xs text-muted mt-0.5">
-                      Monday through Friday: 8:00 AM – 6:00 PM EST. Client systems and urgent forwarding inquiries are monitored 24/7.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="p-5 rounded-xl bg-surface-subtle border border-surface-border text-xs text-muted-dark space-y-2">
-                <div className="flex items-center gap-2 font-semibold text-navy-900">
-                  <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                  <span>Deployment Notice</span>
-                </div>
-                <p className="leading-relaxed">
-                  Halvonex currently builds and manages automation systems for HVAC and mechanical contractors based in the United States. Telephony integrations require a US phone number and standard carrier call forwarding capabilities.
-                </p>
               </div>
             </div>
 
