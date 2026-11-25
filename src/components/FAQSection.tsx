@@ -20,16 +20,6 @@ const FAQS: FAQItem[] = [
       "Yes. We configure your automated receptionist according to your operational preferences: 24/7/365 around the clock, strictly after hours and weekends, or during daytime overflow when your office dispatchers are on other calls.",
   },
   {
-    question: "Does this replace our existing phone number or carrier?",
-    answer:
-      "No. You keep your existing business phone number, carrier, and phone system. We simply configure conditional call forwarding so incoming calls roll over to your Halvonex voice system when needed.",
-  },
-  {
-    question: "Can the system transfer emergency calls to a human technician?",
-    answer:
-      "Yes. During our custom setup phase, we program explicit safety and emergency transfer triggers. If a caller reports a gas leak, water line break, or carbon monoxide alarm, or specifically asks for an on-call manager, Halvonex immediately warm-transfers the call to your designated emergency line.",
-  },
-  {
     question: "Which CRMs and scheduling software do you integrate with?",
     answer:
       "We integrate with standard field service management platforms, CRMs, and business calendars via secure API and webhook connections so leads and appointments sync directly.",
