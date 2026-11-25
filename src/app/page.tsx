@@ -36,7 +36,7 @@ export default function HomePage() {
     {
       title: "Incoming Call Automation",
       description:
-        "24/7 Ring 1 answering, after-hours overflow, and warm transfers on your existing phone number.",
+        "24/7 Ring 1 answering and after-hours overflow so every customer call is captured.",
     },
     {
       title: "Lead Capture & CRM Integration",
@@ -64,8 +64,8 @@ export default function HomePage() {
     { num: "01", name: "Discovery", detail: "Review your call volume, hours, and current setup." },
     { num: "02", name: "Custom Setup", detail: "Build and script your custom AI receptionist." },
     { num: "03", name: "Integration", detail: "Connect your phone system, calendar, and CRM." },
-    { num: "04", name: "Testing", detail: "Verify call flows, triage, and address capture." },
-    { num: "05", name: "Launch", detail: "Activate live forwarding with active monitoring." },
+    { num: "04", name: "Testing", detail: "Verify call flows, lead qualification, and appointment booking." },
+    { num: "05", name: "Launch", detail: "Go live with active call monitoring and lead delivery." },
     { num: "06", name: "Ongoing Support", detail: "Continuous tuning and technical maintenance." },
   ];
 

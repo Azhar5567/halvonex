@@ -20,7 +20,7 @@ export default function ContactPage() {
             Contact our engineering team.
           </h1>
           <p className="mt-5 text-lg text-muted-dark leading-relaxed">
-            Have questions about carrier forwarding, custom CRM workflows, or system architecture? Reach out and we’ll respond within one business day.
+            Have questions about lead capture, appointment booking, or CRM integration? Reach out and we’ll respond within one business day.
           </p>
         </div>
       </section>

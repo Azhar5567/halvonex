@@ -41,17 +41,17 @@ export default function HowItWorksPage() {
       name: "Custom Setup",
       tagline: "Engineering your voice receptionist",
       description:
-        "Our engineers build and script your custom AI receptionist. We train it on your heating and AC services, diagnostic triage trees, property qualification logic, and emergency escalation protocols (gas leaks, freeze hazards).",
-      deliverables: "Custom voice scripts, trade vocabulary training, emergency routing rules.",
+        "Our engineers build and script your custom AI receptionist. We train it on your heating and AC services, lead qualification questions, property rules, and appointment booking workflows.",
+      deliverables: "Custom voice scripts, HVAC lead qualification, appointment booking rules.",
       icon: Sliders,
     },
     {
       num: "03",
       name: "Integration",
-      tagline: "Connecting your tools and telephony",
+      tagline: "Connecting your tools and calendar",
       description:
-        "We configure conditional call forwarding on your existing business phone lines and build secure API/webhook connections into your CRM and dispatch calendars.",
-      deliverables: "Carrier forward routing, CRM contact mapping, real-time dispatch calendar sync.",
+        "We connect your AI receptionist to your phone system, dispatch calendar, and CRM via secure API and webhook integrations.",
+      deliverables: "Phone routing setup, CRM contact mapping, real-time dispatch calendar sync.",
       icon: Database,
     },
     {
@@ -68,7 +68,7 @@ export default function HowItWorksPage() {
       name: "Launch",
       tagline: "Coordinated go-live with live monitoring",
       description:
-        "We activate your live call forwarding schedule and conduct real-time oversight during the first batch of live customer calls, ensuring every lead is captured and dispatchers are notified immediately.",
+        "We activate your live AI receptionist and monitor initial customer calls to ensure every lead is captured and appointments are booked cleanly.",
       deliverables: "Production cutover, live audio monitoring, dispatcher orientation.",
       icon: Rocket,
     },
@@ -87,7 +87,7 @@ export default function HowItWorksPage() {
     {
       num: "01",
       title: "Customer Call",
-      description: "Homeowner dials your primary business number. If busy or after-hours, carrier forwarding engages on Ring 1.",
+      description: "Homeowner dials your business number. When your team is busy or after-hours, the AI receptionist answers on Ring 1.",
       icon: PhoneCall,
     },
     {
@@ -151,14 +151,14 @@ export default function HowItWorksPage() {
                 <p className="text-[11px] text-slate-400 mt-1">Existing VoIP, Mobile, or Landline</p>
               </div>
               <div className="p-3.5 rounded-xl bg-navy-900 border border-white/[0.08] flex flex-col justify-between">
-                <span className="font-mono text-[10px] text-teal-400">02 // ROUTING RULE</span>
-                <p className="text-xs font-semibold text-white mt-1">Conditional Forwarding</p>
-                <p className="text-[11px] text-slate-400 mt-1">Triggers on busy, after-hours, or 24/7</p>
+                <span className="font-mono text-[10px] text-teal-400">02 // CALL ROUTING</span>
+                <p className="text-xs font-semibold text-white mt-1">Smart Call Routing</p>
+                <p className="text-[11px] text-slate-400 mt-1">Answers 24/7, after-hours, or when busy</p>
               </div>
               <div className="p-3.5 rounded-xl bg-navy-850 border border-brand-blue/50 flex flex-col justify-between">
                 <span className="font-mono text-[10px] text-emerald-400">03 // VOICE ENGINE</span>
                 <p className="text-xs font-semibold text-white mt-1">Halvonex Voice Node</p>
-                <p className="text-[11px] text-slate-300 mt-1">Ring 1 answer, triage & address verification</p>
+                <p className="text-[11px] text-slate-300 mt-1">Ring 1 answer, lead capture &amp; booking</p>
               </div>
               <div className="p-3.5 rounded-xl bg-navy-900 border border-white/[0.08] flex flex-col justify-between">
                 <span className="font-mono text-[10px] text-emerald-400">04 // WEBHOOK SYNC</span>

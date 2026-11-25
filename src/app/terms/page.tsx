@@ -34,16 +34,16 @@ export default function TermsPage() {
           </section>
 
           <section className="space-y-3">
-            <h2 className="text-lg font-bold text-navy-900">2. Customer Responsibilities & Phone Forwarding</h2>
+            <h2 className="text-lg font-bold text-navy-900">2. Customer Responsibilities &amp; Scheduling Rules</h2>
             <p>
-              Customers are responsible for configuring call forwarding from their chosen carrier or PBX to their assigned Halvonex voice gateway number. Customers must maintain compliant business hours and ensure on-call emergency numbers are kept current within their account dashboard.
+              Customers are responsible for maintaining accurate business hours, service areas, and calendar availability rules within their connected scheduling system.
             </p>
           </section>
 
           <section className="space-y-3">
-            <h2 className="text-lg font-bold text-navy-900">3. Life-Safety & Emergency Disclaimers</h2>
+            <h2 className="text-lg font-bold text-navy-900">3. Life-Safety &amp; Emergency Disclaimers</h2>
             <p>
-              While Halvonex includes configurable logic to detect critical issues (such as natural gas smells or carbon monoxide alarms) and initiate warm transfers to human personnel or prompt 911 contact, Halvonex is not an emergency response service (PSAP) and must not be used as the primary emergency dispatch infrastructure.
+              Halvonex is an automated lead-capture and appointment-booking service. It is not an emergency response service (PSAP) and must not be used for life-safety dispatch.
             </p>
           </section>
 

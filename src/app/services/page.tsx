@@ -35,23 +35,23 @@ export default function ServicesPage() {
         "We engineer a conversational AI receptionist from scratch, configured to represent your business with exceptional professionalism. The receptionist is trained on HVAC trade terminology, equipment categories, common failure symptoms, emergency safety protocols, and your specific service territory.",
       deliverables: [
         "Custom scripted voice greetings with your exact company name and branding",
-        "HVAC diagnostic question logic (heat pumps, furnaces, AC units, refrigerant leaks)",
-        "Residential vs. commercial property qualification rules",
-        "Emergency escalation logic for gas smells, water leaks, and freeze conditions",
+        "HVAC intake questions (heat pumps, furnaces, AC units, system age)",
+        "Residential vs. commercial lead qualification rules",
+        "Priority tagging for urgent same-day repair vs. routine tune-ups",
       ],
     },
     {
       id: "call-automation",
       title: "2. Incoming Call Automation",
       icon: Radio,
-      summary: "Carrier-grade telephony setup with zero busy signals",
+      summary: "24/7 lead capture with zero busy signals",
       description:
-        "We connect directly with your existing telecommunications provider to configure reliable call forwarding. Whether you want 24/7/365 answering, strict after-hours and weekend coverage, or daytime overflow when all office staff are occupied, we establish and monitor the routing.",
+        "We configure reliable 24/7/365 call answering, after-hours coverage, or daytime overflow when your office staff is occupied—ensuring every incoming customer opportunity is answered on Ring 1.",
       deliverables: [
-        "Conditional and unconditional call forwarding configuration",
+        "24/7, after-hours, and peak overflow call routing",
         "Ring 1 live voice answering with zero hold delays",
         "Unlimited simultaneous call handling (no busy signals during seasonal surges)",
-        "Warm live transfers to designated on-call human staff when requested",
+        "Instant lead notifications and call summaries sent to your team",
       ],
     },
     {

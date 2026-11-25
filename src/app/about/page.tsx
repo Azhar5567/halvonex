@@ -40,7 +40,7 @@ export default function AboutPage() {
               Many software companies attempt to sell HVAC owners self-service AI platforms or generic chatbot builders. But HVAC contractors are busy managing technicians, parts inventories, and daily operations. They don’t have the time or interest to become software administrators, learn prompt engineering, or troubleshoot webhook failures.
             </p>
             <p>
-              Halvonex bridges this gap. We are an <strong>AI automation service company</strong>. We act as your dedicated technical partner: we understand your business model, write and refine your voice prompts, configure your phone carrier forwarding, integrate your field software, and maintain system accuracy on an ongoing basis.
+              Halvonex bridges this gap. We are an <strong>AI automation service company</strong>. We act as your dedicated technical partner: we understand your business model, build your voice receptionist, connect your calendar and CRM, and maintain system accuracy on an ongoing basis.
             </p>
           </div>
 

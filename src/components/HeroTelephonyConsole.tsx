@@ -86,7 +86,7 @@ const SCENARIOS: TelephonyScenario[] = [
       {
         time: "00:24",
         speaker: "CALLER",
-        line: "Yes, that's right. It's a Trane gas furnace, no gas smell.",
+        line: "Yes, that's right. It's a Trane gas furnace that stopped heating.",
       },
       {
         time: "00:38",
@@ -105,8 +105,8 @@ const SCENARIOS: TelephonyScenario[] = [
     equipment: "Carrier 10-Ton Rooftop Unit",
     urgency: "Commercial Account Priority",
     urgencyTone: "blue",
-    crmStatus: "Warm-Transferred to Senior Estimator",
-    slot: "Assigned to Commercial Supervisor",
+    crmStatus: "Synced to Commercial CRM (#EST-4011)",
+    slot: "Tomorrow, 9:00 AM – 11:00 AM (Estimator)",
     beats: [
       {
         time: "00:02",
@@ -126,7 +126,7 @@ const SCENARIOS: TelephonyScenario[] = [
       {
         time: "00:36",
         speaker: "HALVONEX AI",
-        line: "Logging ticket now and warm-transferring to your supervisor.",
+        line: "Logged your details and booked a 9:00 AM estimator visit tomorrow.",
       },
     ],
   },
@@ -345,7 +345,7 @@ export function HeroTelephonyConsole() {
         {/* Priority & Dispatch Slot */}
         <div className="p-3 rounded-xl bg-navy-900 border border-white/[0.08] space-y-1.5 font-mono text-[11px]">
           <div className="flex justify-between items-center gap-2">
-            <span className="text-slate-400">Triage Urgency:</span>
+            <span className="text-slate-400">Lead Priority:</span>
             <span
               className={`font-semibold ${
                 selected.urgencyTone === "red"
