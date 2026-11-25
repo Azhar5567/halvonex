@@ -35,7 +35,7 @@ const SCENARIOS: TelephonyScenario[] = [
     equipment: "Goodman 4-Ton Split Heat Pump",
     urgency: "HIGH (Same-Day Emergency)",
     urgencyTone: "amber",
-    crmStatus: "Synced to ServiceTitan (#WO-8492)",
+    crmStatus: "Synced to CRM (#WO-8492)",
     slot: "Today, 2:00 PM – 4:00 PM (Tech #3 Brad)",
     beats: [
       {
@@ -70,7 +70,7 @@ const SCENARIOS: TelephonyScenario[] = [
     equipment: "Trane XR95 Natural Gas Furnace",
     urgency: "CRITICAL (Freeze Protocol)",
     urgencyTone: "red",
-    crmStatus: "Synced to Jobber (#TKT-4109)",
+    crmStatus: "Synced to Dispatch CRM (#TKT-4109)",
     slot: "Immediate Dispatch (Tech #1 Jake)",
     beats: [
       {

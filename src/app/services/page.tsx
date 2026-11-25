@@ -60,7 +60,7 @@ export default function ServicesPage() {
       icon: Database,
       summary: "Direct field service synchronization with zero double-data entry",
       description:
-        "We build secure API and webhook pipelines connecting the AI receptionist to your field service management software (ServiceTitan, Jobber, Housecall Pro, or custom CRMs). Every conversation generates a complete customer record and detailed dispatch ticket.",
+        "We build secure API and webhook pipelines connecting the AI receptionist to your existing CRM and field service management software. Every conversation generates a complete customer record and detailed dispatch ticket.",
       deliverables: [
         "Automatic contact creation with verified phone and street address",
         "Full conversation transcription and diagnostic summary notes",

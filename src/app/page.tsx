@@ -59,7 +59,7 @@ export default function HomePage() {
       code: "SVC_03 // CRM_SYNC",
       title: "Lead Capture & CRM Integration",
       description:
-        "We connect your phone intake directly with your field service software (ServiceTitan, Jobber, Housecall Pro, or custom CRMs) with zero manual data entry.",
+        "We connect your phone intake directly with your existing CRM and dispatch calendar with zero manual data entry.",
       icon: Database,
       deliverables: ["Full address & spelling check", "Transcripts & audio link", "Instant dispatcher tickets"],
     },
@@ -222,19 +222,16 @@ export default function HomePage() {
                 </Link>
               </div>
 
-              {/* Carrier & Compatibility Hairline Strip */}
+              {/* Operational Capabilities Strip */}
               <div className="pt-6 border-t border-surface-border text-xs text-slate-500 space-y-2">
                 <span className="font-mono text-[11px] uppercase tracking-wider text-slate-400 block font-semibold">
-                  Carrier & Dispatch Compatibility
+                  Turnkey Managed Implementation
                 </span>
                 <div className="flex flex-wrap items-center gap-x-5 gap-y-2 font-mono text-[11px] text-slate-600">
-                  <span>&bull; RingCentral</span>
-                  <span>&bull; Dialpad</span>
-                  <span>&bull; Vonage</span>
-                  <span>&bull; AT&T / Spectrum</span>
-                  <span>&bull; ServiceTitan</span>
-                  <span>&bull; Jobber</span>
-                  <span>&bull; Housecall Pro</span>
+                  <span>&bull; Keep Your Existing Number</span>
+                  <span>&bull; 24/7 Ring 1 Answering</span>
+                  <span>&bull; Direct CRM &amp; Calendar Sync</span>
+                  <span>&bull; Ongoing Technical Support</span>
                 </div>
               </div>
             </div>

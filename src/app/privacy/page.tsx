@@ -62,7 +62,7 @@ export default function PrivacyPage() {
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-navy-900">4. Third-Party Integrations & Service Providers</h2>
             <p>
-              Halvonex interacts with trusted enterprise telecommunications carriers, cloud infrastructure providers, and field service platforms (e.g., ServiceTitan, Jobber, Housecall Pro) under strict data protection standards. Data transmitted via APIs is encrypted in transit using industry-standard TLS 1.3 encryption.
+              Halvonex interacts with trusted enterprise telecommunications carriers, cloud infrastructure providers, and field service platforms under strict data protection standards. Data transmitted via APIs is encrypted in transit using industry-standard TLS 1.3 encryption.
             </p>
           </section>
 

@@ -60,7 +60,7 @@ export default function BookConsultationPage() {
                   <div>
                     <h4 className="text-sm font-semibold text-navy-900">Phone Carrier & PBX Forwarding Check</h4>
                     <p className="text-xs text-muted-dark mt-0.5 leading-relaxed">
-                      We check your current phone lines (RingCentral, Dialpad, Vonage, AT&T, Spectrum, or local PBX) to ensure seamless zero-downtime routing.
+                      We check your current phone lines and forwarding rules to ensure seamless zero-downtime routing.
                     </p>
                   </div>
                 </div>
@@ -72,7 +72,7 @@ export default function BookConsultationPage() {
                   <div>
                     <h4 className="text-sm font-semibold text-navy-900">CRM & Dispatch Integration Mapping</h4>
                     <p className="text-xs text-muted-dark mt-0.5 leading-relaxed">
-                      We map how customer addresses, diagnostic notes, and confirmed booking windows will sync into ServiceTitan, Jobber, Housecall Pro, or your calendars.
+                      We map how customer addresses, diagnostic notes, and confirmed booking windows will sync into your CRM and dispatch calendars.
                     </p>
                   </div>
                 </div>

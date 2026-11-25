@@ -22,7 +22,7 @@ const FAQS: FAQItem[] = [
   {
     question: "Does this replace our existing phone number or carrier?",
     answer:
-      "No. You keep your existing business phone number, carrier, and phone system (RingCentral, Dialpad, Vonage, Spectrum, AT&T, or traditional PBX). We simply configure conditional call forwarding so incoming calls roll over to your Halvonex voice system when needed.",
+      "No. You keep your existing business phone number, carrier, and phone system. We simply configure conditional call forwarding so incoming calls roll over to your Halvonex voice system when needed.",
   },
   {
     question: "Can the system transfer emergency calls to a human technician?",
@@ -32,7 +32,7 @@ const FAQS: FAQItem[] = [
   {
     question: "Which CRMs and scheduling software do you integrate with?",
     answer:
-      "We integrate with standard trade management platforms including ServiceTitan, Jobber, Housecall Pro, and HubSpot, as well as Google Calendar and Microsoft Outlook. Our engineers establish secure API and webhook connections so leads and appointments sync directly.",
+      "We integrate with standard field service management platforms, CRMs, and business calendars via secure API and webhook connections so leads and appointments sync directly.",
   },
   {
     question: "How long does implementation and setup take?",

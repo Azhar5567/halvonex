@@ -32,7 +32,7 @@ export default function HowItWorksPage() {
       name: "Discovery",
       tagline: "Evaluating your business requirements",
       description:
-        "We review your historical call patterns, peak hour volumes, existing phone carrier (RingCentral, Dialpad, Vonage, Spectrum, etc.), service territory zip codes, and field service management software.",
+        "We review your historical call patterns, peak hour volumes, existing phone system, service territory zip codes, and field service management software.",
       deliverables: "Call flow audit, service territory definition, carrier compatibility check.",
       icon: Search,
     },
@@ -50,7 +50,7 @@ export default function HowItWorksPage() {
       name: "Integration",
       tagline: "Connecting your tools and telephony",
       description:
-        "We configure conditional call forwarding on your existing business phone lines and build secure API/webhook connections into your field service software (ServiceTitan, Jobber, Housecall Pro, or calendars).",
+        "We configure conditional call forwarding on your existing business phone lines and build secure API/webhook connections into your CRM and dispatch calendars.",
       deliverables: "Carrier forward routing, CRM contact mapping, real-time dispatch calendar sync.",
       icon: Database,
     },
@@ -148,7 +148,7 @@ export default function HowItWorksPage() {
               <div className="p-3.5 rounded-xl bg-navy-900 border border-white/[0.08] flex flex-col justify-between">
                 <span className="font-mono text-[10px] text-slate-400">01 // INBOUND PSTN</span>
                 <p className="text-xs font-semibold text-white mt-1">Existing Business Line</p>
-                <p className="text-[11px] text-slate-400 mt-1">RingCentral, Dialpad, AT&T, Spectrum, PBX</p>
+                <p className="text-[11px] text-slate-400 mt-1">Existing VoIP, Mobile, or Landline</p>
               </div>
               <div className="p-3.5 rounded-xl bg-navy-900 border border-white/[0.08] flex flex-col justify-between">
                 <span className="font-mono text-[10px] text-blue-400">02 // ROUTING RULE</span>
