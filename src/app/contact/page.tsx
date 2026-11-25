@@ -69,10 +69,10 @@ export default function ContactPage() {
                     <h4 className="text-sm font-semibold text-slate-900">Direct Inquiries</h4>
                     <p className="text-xs text-slate-600 mt-0.5">For agency partnerships and technical questions:</p>
                     <a
-                      href="mailto:inquiries@halvonex.com"
+                      href="mailto:hello@halvonex.com"
                       className="text-xs font-semibold text-brand-cobalt hover:text-brand-hover mt-1 inline-block"
                     >
-                      inquiries@halvonex.com
+                      hello@halvonex.com
                     </a>
                   </div>
                 </div>

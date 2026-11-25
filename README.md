@@ -61,7 +61,7 @@ We build practical business systems that connect directly into existing US telec
    - Honest, grounded positioning as a specialized technology partner without fabricated case studies or buzzwords.
 
 5. **Contact (`/contact`):**
-   - Direct inquiry email (`inquiries@halvonex.com`), business hours, and interactive contact form.
+   - Direct inquiry email (`hello@halvonex.com`), business hours, and interactive contact form.
 
 6. **Book a Demo (`/book-demo`):**
    - 15-minute consultation booking form with comprehensive validation, field team size selection, challenge diagnosis, and transparent backend status notice.

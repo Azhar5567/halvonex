@@ -28,7 +28,7 @@ export async function dispatchLead(payload: LeadPayload): Promise<DeliveryResult
   const channels: string[] = [];
   const webhookUrl = process.env.LEAD_WEBHOOK_URL;
   const resendKey = process.env.RESEND_API_KEY;
-  const notifyEmail = process.env.LEAD_NOTIFY_EMAIL || "inquiries@halvonex.com";
+  const notifyEmail = process.env.LEAD_NOTIFY_EMAIL || "azhar@halvonex.com";
   const fromEmail = process.env.RESEND_FROM_EMAIL || "Halvonex <onboarding@resend.dev>";
 
   if (webhookUrl) {

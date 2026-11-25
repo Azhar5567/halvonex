@@ -24,8 +24,8 @@ export function Footer() {
               </p>
               <p>
                 Email:{" "}
-                <a href="mailto:inquiries@halvonex.com" className="hover:text-white transition-colors">
-                  inquiries@halvonex.com
+                <a href="mailto:hello@halvonex.com" className="hover:text-white transition-colors">
+                  hello@halvonex.com
                 </a>
               </p>
             </div>
