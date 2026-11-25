@@ -1,4 +1,5 @@
-import BookConsultationPage, { metadata } from "../book-consultation/page";
+import { redirect } from "next/navigation";
 
-export { metadata };
-export default BookConsultationPage;
+export default function BookDemoPage() {
+  redirect("/contact");
+}

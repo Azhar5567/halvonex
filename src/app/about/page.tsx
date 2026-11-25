@@ -93,7 +93,7 @@ export default function AboutPage() {
             </p>
             <div className="pt-2">
               <Link
-                href="/book-consultation"
+                href="/contact"
                 className="inline-flex items-center gap-2 text-sm font-semibold text-brand-blue hover:text-brand-hover"
               >
                 <span>Book a Free Consultation with Halvonex</span>

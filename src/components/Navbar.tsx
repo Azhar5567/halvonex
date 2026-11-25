@@ -62,7 +62,7 @@ export function Navbar() {
 
           <div className="hidden md:flex items-center">
             <Link
-              href="/book-consultation"
+              href="/contact"
               className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-white bg-brand-blue hover:bg-brand-hover rounded-lg shadow-btn-primary transition-colors"
             >
               <span>Book a Free Consultation</span>
@@ -72,7 +72,7 @@ export function Navbar() {
 
           <div className="flex md:hidden items-center gap-2">
             <Link
-              href="/book-consultation"
+              href="/contact"
               className="px-3 py-1.5 text-xs font-medium text-white bg-brand-blue rounded-md"
             >
               Consult
@@ -108,7 +108,7 @@ export function Navbar() {
           })}
           <div className="pt-2 border-t border-surface-border">
             <Link
-              href="/book-consultation"
+              href="/contact"
               className="flex items-center justify-center gap-2 w-full px-4 py-2.5 text-sm font-medium text-white bg-brand-blue rounded-lg"
             >
               <span>Book a Free Consultation</span>

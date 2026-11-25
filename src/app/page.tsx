@@ -111,7 +111,7 @@ export default function HomePage() {
 
               <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
                 <Link
-                  href="/book-consultation"
+                  href="/contact"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-medium text-white bg-brand-blue hover:bg-brand-hover rounded-lg shadow-btn-primary transition-colors"
                 >
                   <span>Book a Free Consultation</span>
@@ -317,7 +317,7 @@ export default function HomePage() {
           </p>
           <div className="pt-2 flex flex-wrap gap-3">
             <Link
-              href="/book-consultation"
+              href="/contact"
               className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium text-slate-950 bg-white hover:bg-slate-100 rounded-lg transition-colors"
             >
               <span>Book a Free Consultation</span>

@@ -269,7 +269,7 @@ export default function HowItWorksPage() {
           </p>
           <div className="pt-2">
             <Link
-              href="/book-consultation"
+              href="/contact"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl font-semibold bg-white text-navy-900 hover:bg-surface-subtle transition-all"
             >
               <span>Book a Free Consultation</span>

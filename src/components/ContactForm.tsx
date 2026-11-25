@@ -8,8 +8,6 @@ interface ContactFormData {
   businessName: string;
   businessEmail: string;
   phoneNumber: string;
-  technicians: string;
-  topic: string;
   message: string;
 }
 
@@ -19,8 +17,6 @@ export function ContactForm() {
     businessName: "",
     businessEmail: "",
     phoneNumber: "",
-    technicians: "2-5",
-    topic: "General Inquiry",
     message: "",
   });
 
@@ -95,7 +91,7 @@ export function ContactForm() {
             {deliveryMode === "live" ? "Message Received" : "Message Validated"}
           </h3>
           <p className="text-sm text-slate-600 mt-2 leading-relaxed">
-            Thank you, <strong className="text-slate-900">{submittedData.fullName}</strong>. Your inquiry regarding <strong className="text-slate-900">{submittedData.businessName}</strong> was processed by <code className="font-mono text-xs">/api/contact</code>.
+            Thank you, <strong className="text-slate-900">{submittedData.fullName}</strong>. Your inquiry regarding <strong className="text-slate-900">{submittedData.businessName}</strong> was received.
           </p>
         </div>
 
@@ -106,7 +102,7 @@ export function ContactForm() {
               <span>Integration Status Notice</span>
             </div>
             <p className="text-slate-600 leading-relaxed">
-              The server endpoint validated your inquiry, but no <code className="font-mono">RESEND_API_KEY</code> or <code className="font-mono">LEAD_WEBHOOK_URL</code> environment variable is configured yet. Add either key in Vercel Project Settings to enable live forwarding.
+              The server endpoint validated your inquiry, but no <code className="font-mono">RESEND_API_KEY</code> or <code className="font-mono">LEAD_WEBHOOK_URL</code> environment variable is configured yet.
             </p>
           </div>
         )}
@@ -134,7 +130,7 @@ export function ContactForm() {
       <div>
         <h3 className="text-xl font-bold text-slate-900 tracking-tight">Send Us a Direct Message</h3>
         <p className="text-xs text-slate-600 mt-1">
-          Have questions about phone carrier compatibility or CRM integration? Let us know below.
+          Tell us about your HVAC business or request a free consultation below.
         </p>
       </div>
 
@@ -208,38 +204,6 @@ export function ContactForm() {
             }`}
           />
           {errors.phoneNumber && <p className="text-xs text-red-600 mt-1">{errors.phoneNumber}</p>}
-        </div>
-
-        <div>
-          <label className="block text-xs font-semibold text-slate-900 mb-1.5">
-            Field Technicians
-          </label>
-          <select
-            value={formData.technicians}
-            onChange={(e) => setFormData({ ...formData, technicians: e.target.value })}
-            className="w-full px-3.5 py-2.5 rounded-lg border border-surface-borderStrong text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-blue/30 focus:border-brand-blue"
-          >
-            <option value="1">1 technician</option>
-            <option value="2-5">2 to 5 technicians</option>
-            <option value="6-15">6 to 15 technicians</option>
-            <option value="16+">16+ technicians</option>
-          </select>
-        </div>
-
-        <div>
-          <label className="block text-xs font-semibold text-slate-900 mb-1.5">
-            Inquiry Topic
-          </label>
-          <select
-            value={formData.topic}
-            onChange={(e) => setFormData({ ...formData, topic: e.target.value })}
-            className="w-full px-3.5 py-2.5 rounded-lg border border-surface-borderStrong text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-blue/30 focus:border-brand-blue"
-          >
-            <option value="General Inquiry">General Product Inquiry</option>
-            <option value="Phone System Compatibility">Phone System Compatibility</option>
-            <option value="CRM Integration Questions">CRM Integration Questions</option>
-            <option value="Implementation Timeline">Implementation Timeline</option>
-          </select>
         </div>
       </div>
 

@@ -129,7 +129,7 @@ export default function ServicesPage() {
           </p>
           <div className="mt-8 flex justify-start gap-4">
             <Link
-              href="/book-consultation"
+              href="/contact"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold bg-brand-blue text-white hover:bg-brand-hover shadow-sm transition-all"
             >
               <span>Book a Free Consultation</span>
@@ -207,7 +207,7 @@ export default function ServicesPage() {
           </p>
           <div className="pt-2">
             <Link
-              href="/book-consultation"
+              href="/contact"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl font-semibold bg-white text-navy-900 hover:bg-surface-subtle transition-all"
             >
               <span>Schedule Free Consultation</span>

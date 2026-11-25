@@ -130,7 +130,7 @@ export function OpportunityEstimator() {
           </div>
 
           <Link
-            href="/book-consultation"
+            href="/contact"
             className="w-full py-3 px-4 rounded-xl text-xs font-semibold bg-brand-blue hover:bg-brand-hover text-white transition-all flex items-center justify-center gap-2 shadow-btn-primary text-center"
           >
             <span>Discuss Your Call Routing</span>

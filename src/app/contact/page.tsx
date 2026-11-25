@@ -86,22 +86,6 @@ export default function ContactPage() {
                     </p>
                   </div>
                 </div>
-
-                <div className="flex items-start gap-3.5 p-4 rounded-xl bg-surface-light border border-surface-border">
-                  <Calendar className="w-5 h-5 text-brand-blue shrink-0 mt-0.5" />
-                  <div>
-                    <h4 className="text-sm font-semibold text-navy-900">Prefer a Structured Discussion?</h4>
-                    <p className="text-xs text-muted mt-0.5">
-                      Skip the back-and-forth and reserve a specific consultation window with an automation engineer.
-                    </p>
-                    <Link
-                      href="/book-consultation"
-                      className="text-xs font-semibold text-brand-blue hover:text-brand-hover mt-1 inline-block"
-                    >
-                      Schedule a 15-Minute Consultation &rarr;
-                    </Link>
-                  </div>
-                </div>
               </div>
 
               <div className="p-5 rounded-xl bg-surface-subtle border border-surface-border text-xs text-muted-dark space-y-2">
