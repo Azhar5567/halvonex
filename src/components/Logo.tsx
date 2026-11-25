@@ -38,8 +38,8 @@ export function Logo({ variant = "dark", className = "", size = "md" }: LogoProp
           {/* Subtle geometric H with flow lines */}
           <path d="M6 4v16" className="text-white stroke-white" />
           <path d="M18 4v16" className="text-white stroke-white" />
-          <path d="M6 12h12" className="text-brand-blue stroke-[#356DF3]" strokeWidth="2.5" />
-          <circle cx="12" cy="12" r="2" fill="#356DF3" className="stroke-[#356DF3]" />
+          <path d="M6 12h12" className="stroke-[#14B8A6]" strokeWidth="2.5" />
+          <circle cx="12" cy="12" r="2" fill="#14B8A6" className="stroke-[#14B8A6]" />
         </svg>
       </div>
 

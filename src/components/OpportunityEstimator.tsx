@@ -98,7 +98,7 @@ export function OpportunityEstimator() {
         {/* Calculated Revenue Display (3-tier dark depth) */}
         <div className="lg:col-span-5 bg-navy-950 p-6 sm:p-7 rounded-2xl border border-white/[0.08] ring-1 ring-inset ring-white/[0.05] text-white space-y-5 shadow-dark">
           <div className="space-y-1.5">
-            <span className="font-mono text-[11px] uppercase tracking-wider text-blue-400 font-semibold">
+            <span className="font-mono text-[11px] uppercase tracking-wider text-teal-400 font-semibold">
               Projected Monthly Opportunity
             </span>
             <div className="text-3xl sm:text-4xl font-bold text-white tracking-tight flex items-baseline gap-1.5 font-mono tabular-nums">

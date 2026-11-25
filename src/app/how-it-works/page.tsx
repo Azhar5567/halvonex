@@ -151,7 +151,7 @@ export default function HowItWorksPage() {
                 <p className="text-[11px] text-slate-400 mt-1">Existing VoIP, Mobile, or Landline</p>
               </div>
               <div className="p-3.5 rounded-xl bg-navy-900 border border-white/[0.08] flex flex-col justify-between">
-                <span className="font-mono text-[10px] text-blue-400">02 // ROUTING RULE</span>
+                <span className="font-mono text-[10px] text-teal-400">02 // ROUTING RULE</span>
                 <p className="text-xs font-semibold text-white mt-1">Conditional Forwarding</p>
                 <p className="text-[11px] text-slate-400 mt-1">Triggers on busy, after-hours, or 24/7</p>
               </div>

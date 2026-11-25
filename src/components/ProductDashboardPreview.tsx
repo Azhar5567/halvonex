@@ -195,7 +195,7 @@ export function ProductDashboardPreview() {
                         call.status === "Booked"
                           ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
                           : call.status === "Qualified"
-                          ? "bg-blue-50 text-blue-700 border border-blue-200"
+                          ? "bg-teal-50 text-teal-800 border border-teal-200"
                           : "bg-slate-100 text-slate-700 border border-slate-200"
                       }`}
                     >

@@ -18,7 +18,7 @@ export default async function Image() {
           flexDirection: "column",
           alignItems: "flex-start",
           justifyContent: "space-between",
-          backgroundColor: "#0B1220",
+          backgroundColor: "#0B1014",
           padding: "70px 80px",
           fontFamily: "sans-serif",
         }}
@@ -29,12 +29,12 @@ export default async function Image() {
               width: "48px",
               height: "48px",
               borderRadius: "12px",
-              backgroundColor: "#101828",
-              border: "1px solid #1E293B",
+              backgroundColor: "#11181E",
+              border: "1px solid #24324E",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              color: "#356DF3",
+              color: "#14B8A6",
               fontSize: "26px",
               fontWeight: "bold",
             }}
@@ -49,11 +49,11 @@ export default async function Image() {
               marginLeft: "16px",
               fontSize: "14px",
               fontWeight: "600",
-              color: "#356DF3",
-              backgroundColor: "rgba(53, 109, 243, 0.15)",
+              color: "#2DD4BF",
+              backgroundColor: "rgba(15, 118, 110, 0.22)",
               padding: "6px 14px",
               borderRadius: "999px",
-              border: "1px solid rgba(53, 109, 243, 0.3)",
+              border: "1px solid rgba(20, 184, 166, 0.35)",
             }}
           >
             AI Automation Agency for HVAC
@@ -84,12 +84,12 @@ export default async function Image() {
             alignItems: "center",
             justifyContent: "space-between",
             width: "100%",
-            borderTop: "1px solid #1E293B",
+            borderTop: "1px solid #1E2B35",
             paddingTop: "24px",
           }}
         >
           <span style={{ fontSize: "16px", color: "#64748B" }}>halvonex.com &bull; Managed AI Services for US HVAC Contractors</span>
-          <span style={{ fontSize: "16px", color: "#356DF3", fontWeight: 600 }}>Turnkey Implementation &bull; Managed Operations</span>
+          <span style={{ fontSize: "16px", color: "#2DD4BF", fontWeight: 600 }}>Turnkey Implementation &bull; Managed Operations</span>
         </div>
       </div>
     ),

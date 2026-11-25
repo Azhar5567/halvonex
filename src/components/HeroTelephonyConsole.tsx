@@ -308,7 +308,7 @@ export function HeroTelephonyConsole() {
             <span
               className={`font-mono text-[10px] font-bold mr-1.5 px-1.5 py-0.5 rounded ${
                 currentBeat.speaker === "HALVONEX AI"
-                  ? "bg-brand-blue/20 text-blue-300"
+                  ? "bg-brand-blue/25 text-teal-300"
                   : "bg-white/10 text-slate-300"
               }`}
             >
@@ -352,7 +352,7 @@ export function HeroTelephonyConsole() {
                   ? "text-rose-400"
                   : selected.urgencyTone === "amber"
                   ? "text-amber-400"
-                  : "text-blue-400"
+                  : "text-teal-400"
               }`}
             >
               {selected.urgency}
