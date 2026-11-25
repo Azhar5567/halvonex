@@ -29,7 +29,7 @@ export async function dispatchLead(payload: LeadPayload): Promise<DeliveryResult
   const webhookUrl = process.env.LEAD_WEBHOOK_URL;
   const resendKey = process.env.RESEND_API_KEY;
   const notifyEmail = process.env.LEAD_NOTIFY_EMAIL || "azhar@halvonex.com";
-  const fromEmail = process.env.RESEND_FROM_EMAIL || "Halvonex <onboarding@resend.dev>";
+  const fromEmail = process.env.RESEND_FROM_EMAIL || "Halvonex <hello@halvonex.com>";
 
   if (webhookUrl) {
     const res = await fetch(webhookUrl, {
