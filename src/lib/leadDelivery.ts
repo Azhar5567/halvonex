@@ -82,7 +82,14 @@ export async function dispatchLead(payload: LeadPayload): Promise<DeliveryResult
     });
 
     if (!res.ok) {
-      throw new Error(`Email delivery failed with status ${res.status}`);
+      let detail = "";
+      try {
+        const errJson = await res.json();
+        detail = errJson?.message ? `: ${errJson.message}` : "";
+      } catch {
+        detail = "";
+      }
+      throw new Error(`Email delivery failed (${res.status})${detail}`);
     }
     channels.push("email");
   }
