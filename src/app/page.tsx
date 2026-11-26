@@ -102,7 +102,8 @@ export default function HomePage() {
               </p>
 
               <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 tracking-tight leading-[1.12]">
-                Never Miss Another <span className="text-brand-blue">HVAC Customer.</span>
+                Never Miss Another HVAC Customer Call.{" "}
+                <span className="text-brand-blue">Let AI Handle It 24/7.</span>
               </h1>
 
               <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-xl">
