@@ -39,9 +39,9 @@ export default function HowItWorksPage() {
     {
       num: "02",
       name: "Custom Setup",
-      tagline: "Engineering your voice receptionist",
+      tagline: "Engineering your AI Voice Agents",
       description:
-        "Our engineers build and script your custom AI receptionist. We train it on your heating and AC services, lead qualification questions, property rules, and appointment booking workflows.",
+        "Our engineers build and script your custom AI Voice Agents. We train them on your heating and AC services, lead qualification questions, property rules, and appointment booking workflows.",
       deliverables: "Custom voice scripts, HVAC lead qualification, appointment booking rules.",
       icon: Sliders,
     },
@@ -50,8 +50,8 @@ export default function HowItWorksPage() {
       name: "Integration",
       tagline: "Connecting your tools and calendar",
       description:
-        "We connect your AI receptionist to your phone system, dispatch calendar, and CRM via secure API and webhook integrations.",
-      deliverables: "Phone routing setup, CRM contact mapping, real-time dispatch calendar sync.",
+        "We connect your AI Voice Agents to your phone system, dispatch calendar, and CRM via secure API and webhook integrations.",
+      deliverables: "Phone routing setup, CRM management sync, real-time dispatch calendar booking.",
       icon: Database,
     },
     {
@@ -68,7 +68,7 @@ export default function HowItWorksPage() {
       name: "Launch",
       tagline: "Coordinated go-live with live monitoring",
       description:
-        "We activate your live AI receptionist and monitor initial customer calls to ensure every lead is captured and appointments are booked cleanly.",
+        "We activate your live AI Voice Agents and monitor initial customer calls to ensure every lead is captured, qualified, and booked cleanly.",
       deliverables: "Production cutover, live audio monitoring, dispatcher orientation.",
       icon: Rocket,
     },
@@ -87,13 +87,13 @@ export default function HowItWorksPage() {
     {
       num: "01",
       title: "Customer Call",
-      description: "Homeowner dials your business number. When your team is busy or after-hours, the AI receptionist answers on Ring 1.",
+      description: "Homeowner dials your business number. When your team is busy or after-hours, our AI Voice Agents answer on Ring 1.",
       icon: PhoneCall,
     },
     {
       num: "02",
-      title: "AI Receptionist Handshake",
-      description: "Speaks naturally with your company greeting, asks how they can help, and collects HVAC symptoms.",
+      title: "AI Voice Agents Handshake",
+      description: "Speak naturally with your company greeting, qualify the HVAC lead, and capture service needs.",
       icon: UserCheck,
     },
     {

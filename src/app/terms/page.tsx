@@ -3,7 +3,7 @@ import React from "react";
 export const metadata = {
   title: "Terms of Service | Halvonex",
   description:
-    "Terms of Service governing the use of halvonex.com and Halvonex AI receptionist, lead capture, and appointment-booking services.",
+    "Terms of Service governing the use of halvonex.com and Halvonex AI Voice Agents, lead capture, CRM management, and appointment-booking services.",
 };
 
 export default function TermsPage() {
@@ -18,7 +18,7 @@ export default function TermsPage() {
             Terms of Service
           </h1>
           <p className="mt-3 text-sm text-slate-600 leading-relaxed">
-            These Terms of Service (&ldquo;Terms&rdquo;) govern your access to halvonex.com and any AI automation, receptionist, lead-capture, or appointment-booking services (&ldquo;Services&rdquo;) provided by Halvonex (&ldquo;Halvonex&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;). By using our website or engaging our Services, you agree to these Terms.
+            These Terms of Service (&ldquo;Terms&rdquo;) govern your access to halvonex.com and any AI automation, AI Voice Agents, lead-capture, CRM management, or appointment-booking services (&ldquo;Services&rdquo;) provided by Halvonex (&ldquo;Halvonex&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;). By using our website or engaging our Services, you agree to these Terms.
           </p>
         </div>
 

@@ -29,40 +29,40 @@ export default function HomePage() {
 
   const services = [
     {
-      title: "AI Receptionist Implementation",
+      title: "AI Voice Agents Implementation",
       description:
-        "Custom voice agents trained on your HVAC services, territory boundaries, and emergency rules.",
+        "Custom AI Voice Agents trained on your HVAC services, lead qualification criteria, and territory rules.",
     },
     {
-      title: "Incoming Call Automation",
+      title: "Incoming Call Handling",
       description:
         "24/7 Ring 1 answering and after-hours overflow so every customer call is captured.",
     },
     {
-      title: "Lead Capture & CRM Integration",
+      title: "Lead Capture & Qualification",
       description:
-        "Verified caller details, addresses, and call transcripts synced directly into your CRM.",
+        "Verified caller details, addresses, and service needs collected and qualified automatically.",
     },
     {
-      title: "Appointment Booking Automation",
+      title: "Appointment Booking",
       description:
         "Real-time calendar availability checks and arrival window booking during the call.",
     },
     {
-      title: "Missed-Call Follow-up",
+      title: "CRM Management",
       description:
-        "Immediate automated SMS follow-up if a caller hangs up before completing intake.",
+        "Structured lead records, call transcripts, and statuses synced and organized inside your CRM.",
     },
     {
-      title: "Ongoing Maintenance & Support",
+      title: "Automated Follow-ups",
       description:
-        "Continuous call monitoring, seasonal schedule updates, and technical maintenance handled by us.",
+        "Immediate automated SMS follow-ups for missed calls, appointment confirmations, and reminders.",
     },
   ];
 
   const processSteps = [
     { num: "01", name: "Discovery", detail: "Review your call volume, hours, and current setup." },
-    { num: "02", name: "Custom Setup", detail: "Build and script your custom AI receptionist." },
+    { num: "02", name: "Custom Setup", detail: "Build and script your custom AI Voice Agents." },
     { num: "03", name: "Integration", detail: "Connect your phone system, calendar, and CRM." },
     { num: "04", name: "Testing", detail: "Verify call flows, lead qualification, and appointment booking." },
     { num: "05", name: "Launch", detail: "Go live with active call monitoring and lead delivery." },
@@ -98,7 +98,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-6 space-y-6">
               <p className="font-mono text-xs uppercase tracking-wider text-brand-cobalt font-semibold">
-                AI Automation Agency for HVAC
+                AI Automation Agency Powered by AI Voice Agents
               </p>
 
               <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 tracking-tight leading-[1.12]">
@@ -106,7 +106,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-xl">
-                We build, configure, and manage custom 24/7 AI receptionists for HVAC companies—answering calls, capturing customer details, and booking appointments directly into your calendar.
+                We build, configure, and manage custom 24/7 AI Voice Agents for HVAC companies—handling incoming calls, capturing and qualifying leads, booking appointments, managing your CRM, and running automated follow-ups.
               </p>
 
               <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">

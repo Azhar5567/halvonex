@@ -3,9 +3,9 @@ import Link from "next/link";
 import { ShieldCheck, Target, HeartHandshake, ArrowRight, Wrench, Building2, Activity } from "lucide-react";
 
 export const metadata = {
-  title: "About Halvonex | AI Automation Services for HVAC Companies",
+  title: "About Halvonex | AI Automation Agency Powered by AI Voice Agents",
   description:
-    "Halvonex is an AI automation agency and technology partner. We build, configure, deploy, and manage AI receptionist systems for service businesses.",
+    "Halvonex is an AI automation agency powered by AI Voice Agents. We build, configure, deploy, and manage incoming call handling, lead capture, appointment booking, and CRM automation for HVAC businesses.",
 };
 
 export default function AboutPage() {
@@ -40,7 +40,7 @@ export default function AboutPage() {
               Many software companies attempt to sell HVAC owners self-service AI platforms or generic chatbot builders. But HVAC contractors are busy managing technicians, parts inventories, and daily operations. They don’t have the time or interest to become software administrators, learn prompt engineering, or troubleshoot webhook failures.
             </p>
             <p>
-              Halvonex bridges this gap. We are an <strong>AI automation service company</strong>. We act as your dedicated technical partner: we understand your business model, build your voice receptionist, connect your calendar and CRM, and maintain system accuracy on an ongoing basis.
+              Halvonex bridges this gap. We are an <strong>AI automation agency powered by AI Voice Agents</strong>. We act as your dedicated technical partner: we understand your business model, deploy custom AI Voice Agents, connect your calendar and CRM, and manage your automated follow-ups on an ongoing basis.
             </p>
           </div>
 

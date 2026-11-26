@@ -1,6 +1,6 @@
 # Halvonex — Premium B2B Website
 
-**Live Product:** AI-powered receptionist and lead management system for HVAC businesses across the United States.  
+**Live Product:** AI automation agency powered by AI Voice Agents for HVAC businesses across the United States.  
 **Domain:** [halvonex.com](https://halvonex.com)
 
 ---

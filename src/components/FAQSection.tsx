@@ -15,9 +15,9 @@ const FAQS: FAQItem[] = [
       "No. Halvonex is a full-service AI automation agency, not a self-service software platform. We handle 100% of the build: writing conversational prompts, training trade terminology, configuring your emergency rules, connecting your phone carrier, and testing workflows before launch.",
   },
   {
-    question: "Does the AI receptionist answer calls after business hours and on weekends?",
+    question: "Do the AI Voice Agents answer calls after business hours and on weekends?",
     answer:
-      "Yes. We configure your automated receptionist according to your operational preferences: 24/7/365 around the clock, strictly after hours and weekends, or during daytime overflow when your office dispatchers are on other calls.",
+      "Yes. We configure your AI Voice Agents according to your operational preferences: 24/7/365 around the clock, strictly after hours and weekends, or during daytime overflow when your office team is on other calls.",
   },
   {
     question: "Which CRMs and scheduling software do you integrate with?",

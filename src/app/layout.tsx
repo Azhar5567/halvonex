@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     template: "%s | Halvonex",
   },
   description:
-    "Halvonex is an AI automation agency and technical partner. We build, deploy, and manage 24/7 AI receptionist and lead management systems for HVAC contractors across the United States.",
+    "Halvonex is an AI automation agency powered by AI Voice Agents. We build, deploy, and manage 24/7 incoming call handling, lead capture, qualification, appointment booking, CRM management, and automated follow-ups for HVAC contractors.",
   keywords: [
-    "HVAC AI automation agency",
-    "HVAC AI receptionist services",
-    "managed HVAC answering service",
-    "HVAC intake automation partner",
+    "AI automation agency",
+    "AI Voice Agents for HVAC",
+    "HVAC lead capture automation",
     "automated appointment booking HVAC",
-    "HVAC dispatch automation services",
+    "HVAC CRM management",
+    "automated customer follow-ups",
   ],
   authors: [{ name: "Halvonex Inc." }],
   creator: "Halvonex",
@@ -40,23 +40,23 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://halvonex.com",
     siteName: "Halvonex",
-    title: "Halvonex | AI Automation Agency for HVAC Companies",
+    title: "Halvonex | AI Automation Agency Powered by AI Voice Agents",
     description:
-      "Stop losing HVAC customers to missed calls. We build, configure, deploy, and manage custom 24/7 AI receptionist and lead management systems for HVAC businesses.",
+      "Stop losing HVAC customers to missed calls. Our AI Voice Agents handle incoming calls, capture and qualify leads, book appointments, manage your CRM, and automate follow-ups.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Halvonex HVAC AI Automation Agency",
+        alt: "Halvonex AI Automation Agency",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Halvonex | AI Automation Agency for HVAC Companies",
+    title: "Halvonex | AI Automation Agency Powered by AI Voice Agents",
     description:
-      "Stop losing HVAC customers to missed calls. We build, deploy, and manage custom AI receptionist systems for HVAC businesses.",
+      "Stop losing HVAC customers to missed calls. We build, deploy, and manage custom AI Voice Agents for HVAC businesses.",
   },
   robots: {
     index: true,
@@ -71,17 +71,18 @@ const jsonLd = {
   url: "https://halvonex.com",
   telephone: "+14056488273",
   description:
-    "AI automation agency that builds, deploys, and manages 24/7 AI receptionist, call answering, CRM integration, and appointment scheduling systems for HVAC companies in the United States.",
+    "AI automation agency powered by AI Voice Agents that handles incoming calls, lead capture, lead qualification, appointment booking, CRM management, and automated follow-ups for HVAC companies in the United States.",
   areaServed: {
     "@type": "Country",
     name: "United States",
   },
   serviceType: [
-    "AI Receptionist Implementation",
-    "Incoming Call Automation",
-    "HVAC Lead Capture and CRM Integration",
+    "AI Voice Agents Implementation",
+    "Incoming Call Handling",
+    "Lead Capture and Qualification",
     "Appointment Booking Automation",
-    "Missed-Call Follow-up Systems",
+    "CRM Management",
+    "Automated Follow-ups",
   ],
 };
 

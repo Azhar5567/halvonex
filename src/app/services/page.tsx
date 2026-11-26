@@ -19,20 +19,20 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Managed Services | Custom AI Automation for HVAC Companies",
+  title: "Managed Services | AI Voice Agents for HVAC Companies",
   description:
-    "Halvonex builds, deploys, and manages turnkey AI phone answering, lead qualification, CRM integration, and appointment booking automation for HVAC businesses.",
+    "Halvonex builds, deploys, and manages custom AI Voice Agents for incoming call handling, lead capture, qualification, appointment booking, CRM management, and automated follow-ups.",
 };
 
 export default function ServicesPage() {
   const serviceList = [
     {
       id: "receptionist",
-      title: "1. AI Receptionist Implementation",
+      title: "1. AI Voice Agents Implementation",
       icon: PhoneCall,
-      summary: "Custom voice agent development tailored to your HVAC business rules",
+      summary: "Custom AI Voice Agents engineered for your HVAC business rules",
       description:
-        "We engineer a conversational AI receptionist from scratch, configured to represent your business with exceptional professionalism. The receptionist is trained on HVAC trade terminology, equipment categories, common failure symptoms, emergency safety protocols, and your specific service territory.",
+        "We engineer custom conversational AI Voice Agents from scratch, configured to represent your business with professionalism—handling incoming calls, capturing lead details, qualifying opportunities, and following your exact service territory rules.",
       deliverables: [
         "Custom scripted voice greetings with your exact company name and branding",
         "HVAC intake questions (heat pumps, furnaces, AC units, system age)",
@@ -42,7 +42,7 @@ export default function ServicesPage() {
     },
     {
       id: "call-automation",
-      title: "2. Incoming Call Automation",
+      title: "2. Incoming Call Handling",
       icon: Radio,
       summary: "24/7 lead capture with zero busy signals",
       description:
@@ -56,14 +56,14 @@ export default function ServicesPage() {
     },
     {
       id: "lead-crm",
-      title: "3. Lead Capture & CRM Integration",
+      title: "3. Lead Capture & CRM Management",
       icon: Database,
-      summary: "Direct field service synchronization with zero double-data entry",
+      summary: "Direct CRM management with zero manual data entry",
       description:
-        "We build secure API and webhook pipelines connecting the AI receptionist to your existing CRM and field service management software. Every conversation generates a complete customer record and detailed dispatch ticket.",
+        "We build secure API and webhook pipelines connecting your AI Voice Agents to your existing CRM and field service management software. Every conversation generates a complete customer record, qualified lead status, and organized dispatch ticket.",
       deliverables: [
         "Automatic contact creation with verified phone and street address",
-        "Full conversation transcription and diagnostic summary notes",
+        "Full conversation transcription and lead qualification notes",
         "Secure storage of call audio recording link in CRM ticket",
         "Automated dispatcher email and SMS notifications upon call completion",
       ],
@@ -74,7 +74,7 @@ export default function ServicesPage() {
       icon: CalendarCheck,
       summary: "Real-time dispatch calendar booking during live phone calls",
       description:
-        "We connect to your technician calendars to enable live scheduling during the phone call. The receptionist reads real-time technician availability, offers acceptable arrival windows, reserves the time slot, and dispatches automated SMS confirmations.",
+        "We connect to your technician calendars to enable live scheduling during the phone call. Our AI Voice Agents check real-time technician availability, offer acceptable arrival windows, reserve the time slot, and dispatch automated SMS confirmations.",
       deliverables: [
         "Real-time schedule lookup across technician rosters and zones",
         "Customizable buffer rules to maintain route density and avoid travel delays",
@@ -84,16 +84,16 @@ export default function ServicesPage() {
     },
     {
       id: "missed-call",
-      title: "5. Missed-Call Follow-up Systems",
+      title: "5. Automated Follow-ups",
       icon: PhoneForwarded,
-      summary: "Instant automated SMS re-engagement for abandoned calls",
+      summary: "Instant automated SMS follow-ups and appointment reminders",
       description:
-        "Homeowners who disconnect prematurely during peak seasons often dial competitors immediately. We implement proactive SMS follow-up workflows that trigger within seconds of an abandoned call, keeping the lead warm and capturing their service requirements via two-way messaging.",
+        "Homeowners who disconnect prematurely or wait on hold often dial competitors immediately. We implement proactive automated follow-up workflows that trigger within seconds of an abandoned call, plus automated appointment reminders to reduce no-shows.",
       deliverables: [
         "Automated text sent under 15 seconds after an abandoned ring",
         "Two-way SMS intake sequence to capture address and service issue",
         "Direct link for the customer to confirm an appointment slot",
-        "Dispatcher alert notifying office staff of an active SMS lead",
+        "Automated pre-appointment SMS reminders to reduce no-shows",
       ],
     },
     {
@@ -125,7 +125,7 @@ export default function ServicesPage() {
             Our Managed AI Automation Services
           </h1>
           <p className="mt-5 text-lg text-muted-dark leading-relaxed max-w-3xl">
-            We don’t sell generic software subscriptions. We build, connect, and continuously manage custom AI receptionist systems for HVAC businesses across the United States.
+            We don’t sell generic software subscriptions. Halvonex is an AI automation agency powered by AI Voice Agents—we build, connect, and continuously manage incoming call handling, lead capture, qualification, appointment booking, CRM management, and automated follow-ups for HVAC businesses.
           </p>
           <div className="mt-8 flex justify-start gap-4">
             <Link

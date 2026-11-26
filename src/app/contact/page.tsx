@@ -5,7 +5,7 @@ import { Mail, PhoneCall, MapPin } from "lucide-react";
 export const metadata = {
   title: "Contact Us | Halvonex AI Automation Agency",
   description:
-    "Get in touch with the Halvonex team. Discuss custom AI phone receptionist implementation, phone carrier compatibility, or field software integration.",
+    "Get in touch with Halvonex. Discuss custom AI Voice Agents for incoming call handling, lead capture, qualification, appointment booking, CRM management, and automated follow-ups.",
 };
 
 export default function ContactPage() {

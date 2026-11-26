@@ -18,7 +18,7 @@ export default function PrivacyPage() {
             Privacy Policy
           </h1>
           <p className="mt-3 text-sm text-slate-600 leading-relaxed">
-            This Privacy Policy describes how Halvonex (&ldquo;Halvonex&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) collects, uses, processes, and protects information when you visit halvonex.com, submit an inquiry, or use our managed AI receptionist and lead-capture automation services.
+            This Privacy Policy describes how Halvonex (&ldquo;Halvonex&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) collects, uses, processes, and protects information when you visit halvonex.com, submit an inquiry, or use our managed AI Voice Agents and lead-capture automation services.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ export default function PrivacyPage() {
             <h2 className="text-lg font-bold text-slate-900">3. How We Use Information</h2>
             <ul className="list-disc pl-5 space-y-1.5">
               <li>To respond to business inquiries and deliver requested consultations.</li>
-              <li>To configure, operate, monitor, and maintain AI receptionist, lead-capture, and appointment-booking workflows for Clients.</li>
+              <li>To configure, operate, monitor, and maintain AI Voice Agents, lead-capture, CRM management, and appointment-booking workflows for Clients.</li>
               <li>To sync structured lead records and appointment confirmations into Client calendars and CRM platforms.</li>
               <li>To troubleshoot technical issues, prevent fraud or abuse, and comply with applicable legal obligations.</li>
             </ul>

@@ -74,7 +74,7 @@ export default async function Image() {
             Never Miss Another HVAC Customer.
           </h1>
           <p style={{ fontSize: "24px", color: "#94A3B8", lineHeight: 1.4, margin: 0 }}>
-            We design, build, connect, and manage custom 24/7 AI receptionists and dispatch automation for heating and cooling businesses.
+            AI automation agency powered by AI Voice Agents—handling incoming calls, lead capture, qualification, appointment booking, CRM management, and automated follow-ups.
           </p>
         </div>
 

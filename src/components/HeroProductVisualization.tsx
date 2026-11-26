@@ -154,7 +154,7 @@ export function HeroProductVisualization() {
                 Human-like phone interaction with HVAC service knowledge
               </h4>
               <p className="text-sm text-slate-300 leading-relaxed">
-                The receptionist speaks with calm, natural pacing. It knows HVAC terminology (condensers, heat pumps, refrigerant leaks, pilot lights) and collects full details without robotic menus.
+                Our AI Voice Agents speak with calm, natural pacing, understand HVAC terminology (condensers, heat pumps, refrigerant leaks, pilot lights), and collect full details without robotic menus.
               </p>
 
               {/* Transcript snippet */}

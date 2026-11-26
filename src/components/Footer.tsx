@@ -12,7 +12,7 @@ export function Footer() {
           <div className="md:col-span-2 space-y-3">
             <Logo variant="light" size="md" />
             <p className="text-sm text-slate-400 max-w-sm leading-relaxed">
-              Halvonex builds, deploys, and manages AI receptionist and lead capture systems for HVAC companies across the United States.
+              Halvonex is an AI automation agency powered by AI Voice Agents—handling incoming calls, lead capture, qualification, appointment booking, CRM management, and automated follow-ups for HVAC companies.
             </p>
             <div className="text-xs text-slate-400 pt-1 space-y-1">
               <p>Location: United States</p>
