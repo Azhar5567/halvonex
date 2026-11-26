@@ -93,8 +93,9 @@ export default function HomePage() {
   return (
     <div className="flex flex-col text-left">
       {/* 1. MINIMAL HERO */}
-      <section className="py-16 lg:py-24 bg-white border-b border-surface-border">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-16 lg:py-24 bg-white border-b border-surface-border overflow-hidden">
+        <div className="absolute inset-0 bg-grid-pattern pointer-events-none opacity-40" />
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-6 space-y-6">
               <p className="font-mono text-xs uppercase tracking-wider text-brand-cobalt font-semibold">
@@ -107,7 +108,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-xl">
-                We build, configure, and manage custom 24/7 AI Voice Agents for HVAC companies—handling incoming calls, capturing and qualifying leads, booking appointments, managing your CRM, and running automated follow-ups.
+                We build and manage custom 24/7 AI Voice Agents for HVAC companies—handling incoming calls, qualifying leads, booking appointments, and updating your CRM automatically.
               </p>
 
               <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
@@ -124,6 +125,12 @@ export default function HomePage() {
                 >
                   Explore Services
                 </Link>
+              </div>
+
+              <div className="pt-2 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs font-mono text-slate-500">
+                <span>&#10003; Answers on Ring 1</span>
+                <span>&#10003; Direct Calendar &amp; CRM Sync</span>
+                <span>&#10003; Fully Managed Setup</span>
               </div>
             </div>
 

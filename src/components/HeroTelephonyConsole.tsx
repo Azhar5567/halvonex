@@ -188,7 +188,7 @@ export function HeroTelephonyConsole() {
             }`}
           />
           <span className="font-mono text-slate-300 font-semibold tracking-wider text-[11px] tabular-nums">
-            HALVONEX VOICE // TRUNK #US-EAST-04
+            HALVONEX // AI VOICE AGENT
           </span>
         </div>
         <span className="font-mono text-[10px] text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20">
@@ -346,15 +346,7 @@ export function HeroTelephonyConsole() {
         <div className="p-3 rounded-xl bg-navy-900 border border-white/[0.08] space-y-1.5 font-mono text-[11px]">
           <div className="flex justify-between items-center gap-2">
             <span className="text-slate-400">Lead Priority:</span>
-            <span
-              className={`font-semibold ${
-                selected.urgencyTone === "red"
-                  ? "text-rose-400"
-                  : selected.urgencyTone === "amber"
-                  ? "text-amber-400"
-                  : "text-teal-400"
-              }`}
-            >
+            <span className="font-semibold text-slate-100">
               {selected.urgency}
             </span>
           </div>
